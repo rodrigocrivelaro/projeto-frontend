@@ -18,12 +18,13 @@ header img {
   margin-top: 12px;
 }
 
-.container {
+/*Tirou o container por causa do bootstrap-grid*/
+/*.container {
   width: 100%;
   padding-left: 25px;
   padding-right: 25px;
   margin: 0 auto;
-}
+}*/
   
 #planos {
   /*padding: 80px 280px;*/
@@ -36,13 +37,14 @@ article {
   margin-bottom: 15px;
 }
 
-@media (min-width: 800px) {
+/*Tirou o media queries por causa do bootstrap-grid*/
+/*@media (min-width: 800px) {
   article {
     width: 30%;
     float: left;
     margin-right: 5%;
   }
-}
+}*/
 
 
 article > h2 {
